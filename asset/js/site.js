@@ -57,4 +57,6 @@ $(document).ready(function() {
         new PhotoViewer(items, options);
 
     });
+    $('#year-Reserved').text(new Date().getFullYear())
+
 });
